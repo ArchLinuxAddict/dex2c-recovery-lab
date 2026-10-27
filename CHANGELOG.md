@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.1] - 2026-10-27
+
+- Fixed the lab workflow's Python setup (removed a pip cache declaration that
+  requires a dependency file). No fixture, example, or research content changed.
+
 ## [1.0.0] - 2026-10-27
 
 Initial public lab release.

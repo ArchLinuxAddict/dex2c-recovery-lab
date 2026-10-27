@@ -2,7 +2,8 @@
 
 | Lab release | Toolkit release | Status |
 |---|---|---|
-| 1.0.0 | `dex2c-recovery-toolkit` v1.0.0 | Examples validated locally; CI installs the toolkit tag |
+| 1.0.0 | `dex2c-recovery-toolkit` v1.0.0 | Initial lab release; CI setup issue fixed in 1.0.1 |
+| 1.0.1 | `dex2c-recovery-toolkit` v1.0.0 | Examples validated locally; CI installs the toolkit tag |
 
 ## Convention
 

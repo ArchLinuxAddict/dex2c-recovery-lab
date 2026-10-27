@@ -93,7 +93,7 @@ See [`research/findings/limitations.md`](research/findings/limitations.md).
 
 ## Compatibility
 
-Lab 1.0.0 targets toolkit v1.0.0. See
+Lab 1.0.1 targets toolkit v1.0.0. See
 [`compatibility/toolkit-versions.md`](compatibility/toolkit-versions.md).
 
 ## License
