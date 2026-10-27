@@ -5,9 +5,11 @@
 - Fixed the lab workflow's Python setup (removed a pip cache declaration that
   requires a dependency file). No fixture, example, or research content changed.
 
-## [1.0.0] - 2026-10-27
+## [1.0.0] - 2026-10-27 — withdrawn
 
-Initial public lab release.
+Initial public lab release. The tag was withdrawn because its workflow used a
+pip cache declaration that requires a dependency file; `v1.0.1` is the first
+published release. The content below remains part of the repository history.
 
 - Added sanitized final-campaign summary and evidence-class definitions.
 - Added methodology and Phase IV–VII research notes.
