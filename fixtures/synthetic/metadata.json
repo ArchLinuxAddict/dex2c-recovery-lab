@@ -1,0 +1,36 @@
+{
+  "apk_fixture": "Fixture.apk",
+  "apk_sha256": "e88e234c773d6384251062720210aa4e324c15d1ce99014d876525fbb08eff1e",
+  "apk_size": 1113,
+  "build_command": "java -jar smali.jar assemble -o Fixture.dex Fixture.smali",
+  "build_commands": [
+    "aapt2 link -o Fixture.apk --manifest AndroidManifest.xml -I $ANDROID_HOME/platforms/android-35/android.jar",
+    "python -c \"import zipfile; z=zipfile.ZipFile('Fixture.apk','a'); z.write('Fixture.dex','classes.dex'); z.close()\""
+  ],
+  "classes": [
+    "Ldex2c_recover/Fixture;"
+  ],
+  "dex_version": 35,
+  "expected_methods": [
+    [
+      "<init>",
+      "()V"
+    ],
+    [
+      "add",
+      "(I I)I"
+    ],
+    [
+      "answer",
+      "()I"
+    ]
+  ],
+  "fixture": "Fixture.dex",
+  "license": "MIT",
+  "manifest_source": "AndroidManifest.xml",
+  "package": "dev.dex2c.fixture",
+  "provenance": "Self-created for the public Dex2C Recovery Lab; no target application code.",
+  "sha256": "b30683587f01623dd03865a77c7f4221250d57fe61b404482ac5ada5e4b397f6",
+  "size": 592,
+  "source": "Fixture.smali"
+}

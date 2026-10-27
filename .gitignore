@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+output/
+*.apk
+*.apks
+*.xapk
+*.dex
+!fixtures/synthetic/Fixture.dex
+!fixtures/synthetic/Fixture.apk
+*.so
+*.log
+.env
+.env.*

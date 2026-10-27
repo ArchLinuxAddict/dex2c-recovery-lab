@@ -1,0 +1,62 @@
+{
+  "schema_version": "lab-results-1.0",
+  "generated_at": "2026-10-27T00:00:00Z",
+  "reference_target": {
+    "package": "com.dpkay.apps.developer_options_toggler",
+    "version": "2.87 (198)",
+    "apk_sha256": "076666770f4649f2df86fa896c1e35bf7a2a5ca8f03a29e8b486bd468a88c7e9",
+    "apk_redistributed": false
+  },
+  "final": {
+    "behavioral_reconstructions": 103,
+    "partial_reconstructions": 8,
+    "native_analyzed_untranslated": 225,
+    "exact_recoveries": 0,
+    "semantic_equivalent_proven": 0,
+    "unresolved_summary_level": 0,
+    "canonical_total": 336
+  },
+  "high_priority_constructors": {
+    "total": 52,
+    "applied": 41,
+    "partial": 10,
+    "rejected": 1
+  },
+  "field_assignments": {
+    "total": 86,
+    "source_parameter": 81,
+    "explicit_constant": 5
+  },
+  "campaign_delta": {
+    "on_disk_phase7_behavioral_baseline": 86,
+    "new_behavioral_methods": 17,
+    "new_constructors": 10,
+    "new_leaf_methods": 7,
+    "removed_baseline_methods": 0
+  },
+  "validation": {
+    "final_dex_methods_with_code": 103,
+    "structural_dex_valid": true,
+    "invokes_checked": 108,
+    "field_operations_checked": 116,
+    "invoke_check_issues": 0,
+    "direct_native_vs_generated_methods": 3,
+    "partial_native_constructor_observations": 1
+  },
+  "tests": {
+    "recorded_campaign": {"passed": 100, "failed": 0, "skipped": 1, "note": "device-gated skip"},
+    "publication_rerun": {"passed": 99, "failed": 0, "skipped": 2, "note": "no authorized ADB device; one auto-skip plus one environment-gated skip"},
+    "discrepancy": "Recorded and re-run totals differ only by environment availability; no failures occurred."
+  },
+  "toolkit": {
+    "compatibility": "1.0.0",
+    "scope": "generic pipeline; target-specific Phase IV-VII drivers are not included"
+  },
+  "exclusions": [
+    "target APK",
+    "embedded APK/payload asset",
+    "recovered DEX and target DEX/native dumps",
+    "per-method target inventories",
+    "device serials and local paths"
+  ]
+}
